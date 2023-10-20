@@ -1,0 +1,11 @@
+/target
+src/traces/systor17/*
+src/traces/test traces/*
+src/traces/*.atf
+src/histograms/frequency-histograms
+src/histograms/old data
+src/histograms/partitioned data
+src/traces/scans/*
+src/traces/random traces/*
+src/traces/used traces/*
+src/traces/unused traces/*
