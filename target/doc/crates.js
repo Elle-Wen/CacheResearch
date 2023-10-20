@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["anyhow","approx","bstr","cache_sim","cfg_if","csv","csv_core","either","getrandom","impl_trait_for_tuples","itertools","itoa","lazy_static","libc","memchr","num_traits","ppv_lite86","proc_macro2","quote","rand","rand_chacha","rand_core","regex_automata","ryu","serde","serde_derive","syn","unicode_ident"];
