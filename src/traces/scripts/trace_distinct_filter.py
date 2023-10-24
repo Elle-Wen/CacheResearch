@@ -18,10 +18,9 @@ with open(input_file_path, "r", encoding="utf-8") as source:
     count_dict = {}
     unique_set = set()
     for r in reader1:
-        if r[0] in unique_set:
-            continue  # Skip items that have already been added
         if r[0] in count_dict:
             unique_set.discard(r[0])  # Remove item from set if it's no longer unique
+            continue 
         else:
             unique_set.add(r[0])
         count_dict[r[0]] = count_dict.get(r[0], 0) + 1
@@ -31,5 +30,5 @@ with open(input_file_path, "r", encoding="utf-8") as source:
         source.seek(0)
         reader2 = csv.reader(source)
         for r in reader2: 
-            if r[0] in unique_set:
+            if r[0] not in unique_set:
                 writer.writerow(r) 

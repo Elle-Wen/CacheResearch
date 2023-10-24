@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["LastNItems","LastNStrides","NoCondition"],"trait":["Condition"]};

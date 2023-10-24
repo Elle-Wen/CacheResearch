@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["dense","sparse"],"struct":["Regex"],"trait":["DFA","StateID"]};

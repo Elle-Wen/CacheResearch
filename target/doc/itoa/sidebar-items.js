@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["fmt","write"],"struct":["Buffer"],"trait":["Integer"]};
